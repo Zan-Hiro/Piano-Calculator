@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="container-top">
+        <div class="left">
+            <div class="sub-display"></div>
+            <div class="main-display">0</div>
+            <div class="result"></div>
+        </div>
+        <div class="right">Piano Calculator</div>
+    </div>
+
+    <div class="piano">
+      <div class="key white number" data-note="F">1</div>
+      <div class="key black operator" data-note="Gb">+</div>
+      <div class="key white number" data-note="G">2</div>
+      <div class="key black operator" data-note="Ab">-</div>
+      <div class="key white number" data-note="A">3</div>
+      <div class="key black operator" data-note="Bb">x</div>
+      <div class="key white number" data-note="B">4</div>
+      <div class="key white number" data-note="C">5</div>
+      <div class="key black operator" data-note="Db">/</div>
+      <div class="key white number" data-note="D">6</div>
+      <div class="key black operator" data-note="Eb">%</div>
+      <div class="key white number" data-note="E">7</div>
+      <div class="key white number" data-note="F2">8</div>
+      <div class="key black number decimal" data-note="Gb2">.</div>
+      <div class="key white number" data-note="G2">9</div>
+      <div class="key black equal" data-note="Ab2">=</div>
+      <div class="key white number" data-note="A2">0</div>
+      <div class="key black clear" data-note="Bb2">C</div>
+      <div class="key white music" data-note="B2"><a href="https://github.com/Zan-Hiro/Piano-Calculator.git"><i class="fab fa-github" target="_blank"></i></a></div>
+    </div>
+  </div>
+
+  <audio id="F" src="././sound/note-F.mp3"></audio>
+  <audio id="Gb" src="././sound/note-Gb.mp3"></audio>
+  <audio id="G" src="././sound/note-G.mp3"></audio>
+  <audio id="Ab" src="././sound/note-Ab.mp3"></audio>
+  <audio id="A" src="././sound/note-A.mp3"></audio>
+  <audio id="Bb" src="././sound/note-Bb.mp3"></audio>
+  <audio id="B" src="././sound/note-B.mp3"></audio>
+  <audio id="C" src="././sound/note-C.mp3"></audio>
+  <audio id="Db" src="././sound/note-Db.mp3"></audio>
+  <audio id="D" src="././sound/note-D.mp3"></audio>
+  <audio id="Eb" src="././sound/note-Eb.mp3"></audio>
+  <audio id="E" src="././sound/note-E.mp3"></audio>
+  <audio id="F2" src="././sound/note-F2.mp3"></audio>
+  <audio id="Gb2" src="././sound/note-Gb2.mp3"></audio>
+  <audio id="G2" src="././sound/note-G2.mp3"></audio>
+  <audio id="Ab2" src="././sound/note-Ab2.mp3"></audio>
+  <audio id="A2" src="././sound/note-A2.mp3"></audio>
+  <audio id="Bb2" src="././sound/note-Bb2.mp3"></audio>
+  <audio id="B2" src="././sound/note-B2.mp3"></audio>
+
+  <script src="javascript/script.js"></script>
+</body>
+</html>
