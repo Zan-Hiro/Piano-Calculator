@@ -4,8 +4,14 @@ Hello, world.
 
 This is my first Calculator for the odin project.
 
-And, I created piano style.
+I created piano style calculator.
 
-Of course, if you click or type the key, you can make sounds.
+If you click or type the key, you can make sounds, of course.
+
+Github-icon on the piano, just icon. 
+
+You don't jump any link. 
+
+Because, I don't disturb your musical performance (lol)
 
 Thank you and happy coding!!
